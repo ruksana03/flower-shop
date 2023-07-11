@@ -273,6 +273,30 @@ line-height: 30px;
     line-height: normal;
 }
 
+/* style for history part  */
+
+.history-title {
+    text-align: center;
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 45px;
+
+}
+.history {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 219, 234);
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+    font-family: Lato;
+    color: rgb(177, 25, 63);
+}
+
+.history-title span{
+    color: #af1838;
+}
+
 /* style for footer section  */
 .footer-section{
     padding: 100px 400px;
