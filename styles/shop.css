@@ -1,0 +1,30 @@
+.banner {
+    background: rgba(141, 106, 113, 0.1);
+    display: flex;
+    width: 100%;
+}
+
+.banner .img{
+    height: 635px;
+    width: 800px;
+
+}
+
+.btn{
+    display: inline-flex;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 0;
+}
+
+.heading{
+    font-family: 'Lato', sans-serif;
+}
+
+.peragraph{
+    font-family: 'Lato', sans-serif;
+}
