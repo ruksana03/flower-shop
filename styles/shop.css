@@ -135,31 +135,31 @@ img{
 
 /* styles for support section*/
 .support{
-height: 200px;
-border-radius: 8px;
-background: rgba(39, 39, 39, 0.05);
-margin: 100px;
-display: flex;
-justify-content: space-around;
-padding-top: 86px;
-text-align: center;
+    height: 200px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 100px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 86px;
+    text-align: center;
 }
 
 
 .support img{
     width: 88px;
-height: 88px;
-text-align: center;
+    height: 88px;
+    text-align: center;
 }
 
 .support p{
     color: rgba(39, 39, 39, 0.80);
-text-align: center;
-font-family: Lato;
-font-size: 14px;
-font-style: normal;
-font-weight: 600;
-line-height: 35px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
 }
 
 /* styles of discount section */
@@ -182,21 +182,21 @@ line-height: 35px;
 
 .offer-title{
     color: #272727;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
 .offer-section-text p{
     color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .offer-section-image{
@@ -205,8 +205,8 @@ line-height: 30px;
 
 .offer-section-image img{
     width: 318px;
-height: 420px;
-flex-shrink: 0;
+    height: 420px;
+    flex-shrink: 0;
 }
 
 /* styles of instagram section */
@@ -220,57 +220,7 @@ flex-shrink: 0;
 
 .instagram-images img{
     width: 250px;
-height: 300px;
-}
-
-/* style for information section */
-.info{ 
-    background-image: url("../images/Rectangle\ 9.png");
-    background-repeat: no-repeat;
-    
-    text-align: center;
-    padding-top: 100px;
-    padding-bottom: 80px;
-  margin:50px 140px;
-height: 449px;
-border-radius: 8px;
-      }
-
-      .info h1{
-        color: #272727;
-text-align: center;
-font-family: Lato;
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
-      }
-
-      .info p{
-        color: rgba(39, 39, 39, 0.60);
-text-align: center;
-font-family: Lato;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 30px;
-      }
-
-.info input{
-    width: 400px; 
-    height: 55px;
-    border-radius: 8px;
-    background: #FFF;
-    padding-left: 20px;
-    border: 0;
-    margin-top: 20px;
-
-    color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    height: 300px;
 }
 
 /* style for history part  */
@@ -297,41 +247,91 @@ line-height: 30px;
     color: #af1838;
 }
 
+/* style for information section */
+.info{ 
+    background-image: url("../images/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    
+    text-align: center;
+    padding-top: 100px;
+    /* padding-bottom: 80px; */
+    margin:50px 140px;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.info h1{
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.info p{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.info input{
+    width: 400px; 
+    height: 55px;
+    border-radius: 8px;
+    background: #FFF;
+    padding-left: 20px;
+    border: 0;
+    margin-top: 20px;
+
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
 /* style for footer section  */
 .footer-section{
     padding: 100px 400px;
     background: #111010;
-   
     text-align: center;
-    
 }
 
 .footer-section h1{
     color: #E55473;
-font-family: Lato;
-font-size: 48px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 .footer-section p{
     color: rgba(255, 255, 255, 0.90);
-text-align: center;
-font-family: Lato;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: 20px;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
 }
 
 .footer-section small{
     color: rgba(255, 255, 255, 0.40);
-text-align: center;
-font-family: Lato;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .footer-section span{
     color: #FFF;
